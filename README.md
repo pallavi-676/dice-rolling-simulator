@@ -31,7 +31,7 @@ dice-rolling-simulator/
 ## ▶️ How to Run
 
 1. Clone the repository:
-   git clone https://github.com/your-username/dice-rolling-simulator.git
+   git clone https://github.com/pallavi-676/dice-rolling-simulator.git
 
 2. Navigate to the folder:
    cd dice-rolling-simulator
@@ -43,19 +43,33 @@ dice-rolling-simulator/
 
 ## 📸 Example Output
 
+```
 🎲 Dice Rolling Simulator 🎲
 
 Enter number of dice: 2
 
 🎯 Results:
-┌───────┐  ┌───────┐  
-│ ●   ● │  │   ●   │  
-│       │  │       │  
-│ ●   ● │  │   ●   │  
-└───────┘  └───────┘  
+┌───────┐  ┌───────┐
+│ ●   ● │  │   ●   │
+│       │  │       │
+│ ●   ● │  │   ●   │
+└───────┘  └───────┘
 
-Values: [4, 2]  
+Values: [4, 2]
 Total: 6
+```
+
+---
+## 🔮 Future Improvements
+
+- 🎨 Add colored dice using libraries like `colorama`
+- 🎲 Support different types of dice (e.g., 8-sided, 10-sided, 20-sided)
+- 📊 Track roll history and display statistics
+- 🎮 Add a simple game mode (e.g., highest roll wins)
+- 🖥️ Build a GUI version using Tkinter
+- 🌐 Convert into a web app using HTML, CSS, and JavaScript
+- 🔊 Add sound effects for dice rolling
+- ⏱️ Add animation to simulate rolling dice
 
 ---
 
