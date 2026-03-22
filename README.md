@@ -21,30 +21,31 @@ A simple and interactive command-line Dice Rolling Simulator built using Python.
 ---
 
 ## 📂 Project Structure
-ice-rolling-simulator/
-│── main.py
-│── README.md
 
+dice-rolling-simulator/
+│── dice_simulator.py
+│── README.md
 
 ---
 
 ## ▶️ How to Run
 
 1. Clone the repository:
-   ```bash
    git clone https://github.com/your-username/dice-rolling-simulator.git
 
- Navigate to the folder:
+2. Navigate to the folder:
+   cd dice-rolling-simulator
 
-  cd dice-rolling-simulator
+3. Run the program:
+   python dice_simulator.py
 
-Run the program:
+---
 
-  python main.py
+## 📸 Example Output
 
-  🎲 Dice Rolling Simulator 🎲
+🎲 Dice Rolling Simulator 🎲
 
-Enter number of dice to roll: 2
+Enter number of dice: 2
 
 🎯 Results:
 ┌───────┐  ┌───────┐  
@@ -53,6 +54,11 @@ Enter number of dice to roll: 2
 │ ●   ● │  │   ●   │  
 └───────┘  └───────┘  
 
-Values: [4, 2]
+Values: [4, 2]  
 Total: 6
 
+---
+
+## ✨ Author
+
+Pallavi Sarovar
